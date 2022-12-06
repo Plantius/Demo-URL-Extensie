@@ -1,0 +1,33 @@
+<!-- popup.html -->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./popup.css" />
+
+    <title>Malicious URL Check</title>
+    <script src="popup.js"></script>
+
+  </head>
+  
+  <div class="container">
+    <textarea maxlength=140 id="report" name="reportText" rows="6" cols="37" placeholder="Start typing... " spellcheck="false"></textarea>
+    
+    <button class="btn bad" id="bad">Bad</button>
+    <button class="btn good" id="good">Good</button>
+
+    <button class="btn yes" id="yes">Yes</button>
+    <button class="btn no" id="no">No</button>
+
+    <button class="btn submit" id="submit">Submit </button>
+    <button class="btn close" id="close"></button>
+    <button class="btn ad" id="ad"></button>
+    <label class="switch">
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+  </div>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+  
+    "name": "URL Check",
+    "description": "This extension protects you against malicious websites.",
+    "version": "1.0",
+
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ]
+}
